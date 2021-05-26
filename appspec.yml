@@ -3,6 +3,7 @@ os: linux
 files:
    - source: /home
      destination: /var/www/html/fist
+file_exists_behavior: OVERWRITE
 permissions:
    - object: /var/www/html/fist
      pattern: "**"
