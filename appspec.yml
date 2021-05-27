@@ -1,11 +1,10 @@
 version: 0.0
 os: linux
 files:
-   - source: Fist
-     destination: /var/www/html/fist
-file_exists_behavior: OVERWRITE
+   - source: /
+     destination: /var/www/html/fist/
 permissions:
-   - object: /var/www/html/fist
+   - object: /var/www/html/fist/
      pattern: "**"
      owner: ubuntu
      group: ubuntu
